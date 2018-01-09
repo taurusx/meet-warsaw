@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_background"
+    android:minHeight="@dimen/height_listview_item_min">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/width_listview_image"
+        android:layout_height="@dimen/height_listview_image"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/listview_imageview_contentdescription"
+        android:scaleType="fitCenter"
+        tools:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:minHeight="@dimen/height_listview_item_min"
+        android:orientation="vertical"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingTop="@dimen/padding_listview_textcontainer_top">
+
+        <TextView
+            android:id="@+id/textview_listview_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:scrollHorizontally="false"
+            android:textAppearance="?android:textAppearanceListItemSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Warsaw Uprising Monument"
+            tools:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textview_listview_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_listview_textcontainer_between"
+            android:textAppearance="?android:textAppearanceListItemSmall"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            tools:text="Monument"
+            tools:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textview_listview_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_listview_textcontainer_between"
+            android:paddingTop="@dimen/padding_listview_textcontainer_between"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. "
+            tools:textColor="@android:color/black" />
+    </LinearLayout>
+</RelativeLayout>

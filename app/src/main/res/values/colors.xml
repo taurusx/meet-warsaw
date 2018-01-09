@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5D4037</color>
+    <color name="colorPrimaryDark">#3E2723</color>
+    <color name="colorAccent">#ffeb3b</color>
+
+    <!-- Background color for app -->
+    <color name="grey_background">#f4e8e2</color>
+
+    <!-- Background color for the buildings category -->
+    <color name="category_buildings">#d43034</color>
+
+    <!-- Background color for the monuments category -->
+    <color name="category_monuments">#5C1A19</color>
+
+    <!-- Background color for the food category -->
+    <color name="category_fooddrink">#d87621</color>
+
+    <!-- Background color for the sport category -->
+    <color name="category_sport">#1168d2</color>
+</resources>

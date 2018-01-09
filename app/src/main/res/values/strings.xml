@@ -1,0 +1,285 @@
+<resources>
+
+    <!-- =========== -->
+    <!-- Application -->
+    <!-- =========== -->
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">MeetWarsaw</string>
+
+    <!-- Category name for buildings [CHAR LIMIT=20] -->
+    <string name="all_category_buildings">Buildings and Places</string>
+
+    <!-- Category name for monuments [CHAR LIMIT=20] -->
+    <string name="all_category_monuments">Monuments and Parks</string>
+
+    <!-- Category name for food and drink [CHAR LIMIT=20] -->
+    <string name="all_category_fooddrink">Food and Drink</string>
+
+    <!-- Category name for sport and activities [CHAR LIMIT=20] -->
+    <string name="all_category_sport">Sport and Leisure</string>
+
+    <!-- ListView photo description [CHAR LIMIT=20] -->
+    <string name="listview_imageview_contentdescription">Photo of location in list item</string>
+
+    <!-- Main menu item. [CHAR LIMIT=12] -->
+    <string name="menu_credits">Credits</string>
+
+    <!-- =========== -->
+    <!-- Locations' Names -->
+    <!-- =========== -->
+
+    <!-- Location name - Buildings category. [CHAR LIMIT=50] -->
+    <string name="buildings_name_palaceofculture">Palace of Culture and Science</string>
+    <string name="buildings_name_citycenter">City Center</string>
+    <string name="buildings_name_royalcastle">Royal Castle</string>
+    <string name="buildings_name_wilanowpalace">Wilanow Palace</string>
+    <string name="buildings_name_lazienkipalace">Lazienki Palace (Palace on the Water)</string>
+    <string name="buildings_name_supremecourt">Supreme Court of Poland Building</string>
+    <string name="buildings_name_oldtown">Old Town</string>
+    <string name="buildings_name_barbican">Warsaw Barbican</string>
+    <string name="buildings_name_royalroute">Royal Route</string>
+    <string name="buildings_name_filters">Warsaw Water Filters</string>
+    <string name="buildings_name_uprisingmuseum">Warsaw Uprising Museum</string>
+    <string name="buildings_name_polinjewishmuseum">POLIN Museum of the History of Polish Jews</string>
+    <string name="buildings_name_belvedere">The Belweder Palace (Belvedere)</string>
+    <string name="buildings_name_universitylibrary">University of Warsaw Library and Roof Garden</string>
+
+    <!-- Location name - Monuments and Parks category. [CHAR LIMIT=50] -->
+    <string name="monuments_name_littleinsurrectionist">Maly Powstaniec (Little Insurrectionist)</string>
+    <string name="monuments_name_uprising">Warsaw Uprising Monument</string>
+    <string name="monuments_name_chopin">The Chopin Statue</string>
+    <string name="monuments_name_copernicus">The Nicolaus Copernicus Monument</string>
+    <string name="monuments_name_sigismundscolumn">Sigismund\'s Column (Kolumna Zygmunta)</string>
+    <string name="monuments_name_mermaidoldtown">The Mermaid of Warsaw Statue in Old Town</string>
+    <string name="monuments_name_mermaidpowisle">The Mermaid of Warsaw Statue in Powisle</string>
+    <string name="monuments_name_saxongarden">Saxon Garden</string>
+    <string name="monuments_name_lazienkibathspark">Lazienki Park (Royal Baths Park)</string>
+    <string name="monuments_name_mokotowfield">Mokotow Field (Pole Mokotowskie)</string>
+
+    <!-- Location name - Food and Drink category. [CHAR LIMIT=50] -->
+    <string name="fooddrink_name_efeskebab">Efes Kebab</string>
+    <string name="fooddrink_name_meatbusters">Pogromcy Meatow (Meat Busters)</string>
+    <string name="fooddrink_name_warburger">Warburger</string>
+    <string name="fooddrink_name_milkbar">Bar Mleczny Familijny (Milk Bar)</string>
+    <string name="fooddrink_name_ciaopizzeria">Ciao a Tutti Pizzeria</string>
+    <string name="fooddrink_name_wawphoasian">Waw Pho Asian Bar</string>
+    <string name="fooddrink_name_piwpaw">PiwPaw</string>
+    <string name="fooddrink_name_czupito">Czupito</string>
+    <string name="fooddrink_name_towarzyskacafe">Klubokawiarnia Towarzyska (Towarzyska Cafe)</string>
+    <string name="fooddrink_name_nitrolody">Nitro Lody (Nitro Icecreams)</string>
+    <string name="fooddrink_name_f30">F30 Cafe</string>
+
+    <!-- Location name - Sport and Leisure category. [CHAR LIMIT=50] -->
+    <string name="sport_name_nationalstadium">National Stadium</string>
+    <string name="sport_name_vistula">Vistula river - beach and stairs</string>
+    <string name="sport_name_bikeroute">Picturesque Bike Route along Vistula River</string>
+    <string name="sport_name_jutrzenka">Jutrzenka</string>
+    <string name="sport_name_legia">Legia Warsaw Stadium</string>
+    <string name="sport_name_hybrydy">Hybrydy</string>
+    <string name="sport_name_goldenterraces">Zlote Tarasy (Golden Terraces)</string>
+    <string name="sport_name_chopinconcerts">Chopin Concerts (Open-air Classical Music)</string>
+    <string name="sport_name_fountain">Multimedia Fountain Park</string>
+    <string name="sport_name_sciencecopernicus">Science Center "Copernicus"</string>
+
+    <!-- =========== -->
+    <!-- Locations' Addresses -->
+    <!-- =========== -->
+
+    <!-- Location address - Buildings category. [CHAR LIMIT=NONE] -->
+    <string name="buildings_address_palaceofculture">plac Defilad 1 (square), 00&#8211;901 Warszawa</string>
+    <string name="buildings_address_citycenter">Marszalkowska 94/98, 00&#8211;510 Warszawa</string>
+    <string name="buildings_address_royalcastle">plac Zamkowy 4 (square), 00&#8211;277 Warszawa</string>
+    <string name="buildings_address_wilanowpalace">Stanislawa Kostki Potockiego 10/16, 02&#8211;958 Warszawa</string>
+    <string name="buildings_address_lazienkipalace">Agrykoli 1, 00&#8211;460 Warszawa</string>
+    <string name="buildings_address_supremecourt">placu Krasińskich 2/4/6 (square), 00&#8211;207 Warszawa</string>
+    <string name="buildings_address_oldtown">Rynek Starego Miasta 1, 00&#8211;272 Warszawa</string>
+    <string name="buildings_address_barbican">Nowomiejska 15/17, 00&#8211;271 Warszawa</string>
+    <string name="buildings_address_royalroute">Krakowskie Przedmiescie 1, 00&#8211;047 Warszawa</string>
+    <string name="buildings_address_filters">Koszykowa 81, 02&#8211;012 Warszawa</string>
+    <string name="buildings_address_uprisingmuseum">Grzybowska 79, 00&#8211;844 Warszawa</string>
+    <string name="buildings_address_polinjewishmuseum">Anielewicza 6, 00&#8211;157 Warszawa</string>
+    <string name="buildings_address_belvedere">Belwederska 52, 00&#8211;594 Warszawa</string>
+    <string name="buildings_address_universitylibrary">Dobra 56/66, 00&#8211;312 Warszawa</string>
+
+    <!-- Location address - Monuments and Parks category. [CHAR LIMIT=NONE] -->
+    <string name="monuments_address_littleinsurrectionist">Podwale 19, 00&#8211;252 Warszawa</string>
+    <string name="monuments_address_uprising">Dluga 22, 00&#8211;263 Warszawa</string>
+    <string name="monuments_address_chopin">West entrance from Ujazdowskie Av. 1, 00&#8211;583 Warszawa</string>
+    <string name="monuments_address_copernicus">Krakowskie Przedmiescie 1, 00&#8211;047 Warszawa</string>
+    <string name="monuments_address_sigismundscolumn">Plac Zamkowy 1/13 (square), 00&#8211;267 Warszawa</string>
+    <string name="monuments_address_mermaidoldtown">Rynek Starego Miasta 1, 00&#8211;272 Warszawa</string>
+    <string name="monuments_address_mermaidpowisle">bulwar Bohdana Grzymaly&#8211;Siedleckiego, 00&#8211;347 Warszawa</string>
+    <string name="monuments_address_saxongarden">plac Pilsudskiego (square), 05&#8211;077 Warszawa</string>
+    <string name="monuments_address_lazienkibathspark">Agrykoli 1, 00&#8211;460 Warszawa</string>
+    <string name="monuments_address_mokotowfield">Niepodleglosci Av. 213, 02&#8211;086 Warszawa</string>
+
+    <!-- Location address - Food and Drink category. [CHAR LIMIT=NONE] -->
+    <string name="fooddrink_address_efeskebab">Francuska 1, 03&#8211;906 Warszawa</string>
+    <string name="fooddrink_address_meatbusters">Koszykowa 1, 00&#8211;564 Warszawa</string>
+    <string name="fooddrink_address_warburger">Jaroslawa Dabrowskiego, 02&#8211;557 Warszawa</string>
+    <string name="fooddrink_address_milkbar">Nowy Swiat 39, 00&#8211;029 Warszawa</string>
+    <string name="fooddrink_address_ciaopizzeria">al. Niepodleglosci 217, 02&#8211;087 Warszawa</string>
+    <string name="fooddrink_address_wawphoasian">Noakowskiego 14, 02&#8211;666 Warszawa</string>
+    <string name="fooddrink_address_piwpaw">Foksal 16, 00&#8211;372 Warszawa</string>
+    <string name="fooddrink_address_czupito">Mazowiecka 9, 05&#8211;077 Warszawa</string>
+    <string name="fooddrink_address_towarzyskacafe">Zwyciezcow 49 U&#8211;1, 03&#8211;937 Warszawa</string>
+    <string name="fooddrink_address_nitrolody">Zwyciezcow 11, 03&#8211;936 Warszawa</string>
+    <string name="fooddrink_address_f30">Francuska 30, 03&#8211;905 Warszawa</string>
+
+    <!-- Location address - Sport and Leisure category. [CHAR LIMIT=NONE] -->
+    <string name="sport_address_nationalstadium">Poniatowskiego Av. 1, 03&#8211;901 Warszawa</string>
+    <string name="sport_address_vistula">Bulwar Flotylli Wislanej 1, 01&#8211;244 Warszawa</string>
+    <string name="sport_address_bikeroute">Wybrzeze Szczecinskie 3, 03&#8211;714 Warszawa</string>
+    <string name="sport_address_jutrzenka">Rozbrat 5, 00&#8211;419 Warszawa</string>
+    <string name="sport_address_legia">Lazienkowska 3, 00&#8211;449 Warszawa</string>
+    <string name="sport_address_hybrydy">Zlota 7/9, 00&#8211;019 Warszawa</string>
+    <string name="sport_address_goldenterraces">Zlota 59, 00&#8211;120 Warszawa</string>
+    <string name="sport_address_chopinconcerts">West entrance from Ujazdowskie Av. 1, 00&#8211;583 Warszawa</string>
+    <string name="sport_address_fountain">skwer I Dywizji Pancernej (square), 00&#8211;221 Warszawa</string>
+    <string name="sport_address_sciencecopernicus">Wybrzeze Kosciuszkowskie 20, 00&#8211;390 Warszawa</string>
+
+    <!-- =========== -->
+    <!-- Locations' Descriptions -->
+    <!-- =========== -->
+
+    <!-- Location description - Buildings category. [CHAR LIMIT=NONE] -->
+    <string name="buildings_description_palaceofculture">Museums, cinemas, theatres, colleges, offices and even a swimming pool, all located in one building which despite its communists origins became an icon of whole city.
+</string>
+    <string name="buildings_description_citycenter">City skyline becomes higher with every year. You can have a look at the newest apartment or office building in the City Centre like Daniel Libeskind\'s Zlota44. On the other hand you can have a look at the whole city from observation point located on 30th floor in Palace of Culture and Science.
+</string>
+    <string name="buildings_description_royalcastle">Royal residence built in 1619. Unfortunately, destroyed during WWII, right now rebuilt accordingly to old drawings, paintings and historical informatin. Whole building is converted to a museum.
+</string>
+    <string name="buildings_description_wilanowpalace">Royal, baroque palace, which architecture survived Partitions of Poland and both World Wars. Its museum is a reminder of Polish tradition and culture from before XVIII century.
+</string>
+    <string name="buildings_description_lazienkipalace">Classicist palace in Royal Baths Park, the city\'s largest park, finished in 1689.
+</string>
+    <string name="buildings_description_supremecourt">Distinctive building near the Old Town, really worth seeing.
+</string>
+    <string name="buildings_description_oldtown">The oldest part of the capital city, rich in restaurants, cafés and shops. Established in the 13th century, feature medieval architecture reconstructions, acknowledged by UNESCO.
+</string>
+    <string name="buildings_description_barbican">City walls semicircular fortifications that surround Old Town area. Erected originally in 1540, largely destroyed during WWII.
+</string>
+    <string name="buildings_description_royalroute">It connects Royal Castle and Royal Baths Park. Along Royal Route most important buildings in XVII and XVIII century were located. Right now its main part &#8211; Krakowskie Przedmiescie, is considered as one of the best known and prestigious street in the city.
+</string>
+    <string name="buildings_description_filters">Although it is rare to have the filters open for tourism, the underground views are very unique. In 1886, thanks to William Lindley\'s design Warsaw got its own citywide waterworks.
+</string>
+    <string name="buildings_description_uprisingmuseum">Dedicated to the Warsaw Uprising of 1944 and the history of the Polish Underground State.
+</string>
+    <string name="buildings_description_polinjewishmuseum">A museum built on the site of former Warsaw Ghetto and dedicated to the history of Polish Jews and their tragic fate during Holocaust.
+</string>
+    <string name="buildings_description_belvedere">Until recently, the Belvedere was the seat of the President of Poland.
+</string>
+    <string name="buildings_description_universitylibrary">Founded in 1816, it is currently one of the biggest libraries in Poland with 3 million volumes. On it\'s roof there are freely accessible, one of the largest in Europe, roof gardens, which has an area of one hectare.
+</string>
+
+    <!-- Location description - Monuments and Parks category. [CHAR LIMIT=NONE] -->
+    <string name="monuments_description_littleinsurrectionist">Maly Powstaniec is a statue located in Old Town commemorating of the child soldiers who fought and died during the Warsaw Uprising of 1944.
+</string>
+    <string name="monuments_description_uprising">The monument is dedicated to the Warsaw Uprising of 1944. It commemorates the period of 63 days of the Polish resistance movement that had fought for Poland\'s independence. During the Uprising up to 90% of Warsaw\'s buildings were destroyed by Germans.
+</string>
+    <string name="monuments_description_chopin">Statue of Frédéric Chopin is located in Royal Baths Park. It commemorates Polish most famous composer and virtuoso pianist.
+</string>
+    <string name="monuments_description_copernicus">The statue of a Polish astronomer, Nicolaus Copernicus (Mikolaj Kopernik). Monument was designed in 1822 and it shows Copernicus holding a compass and armillary sphere.
+</string>
+    <string name="monuments_description_sigismundscolumn">Originally erected in 1644, located in front of Royal Castle. It commemorates King Sigismund III Vasa, who in 1596 had moved Poland\'s capital from Krakow to Warsaw.
+</string>
+    <string name="monuments_description_mermaidoldtown">A symbol of Warsaw, represented on the city\'s coat of arms. The oldest one of three main mermaid\'s sculptures, from 1855 is located in Market Place of Old Town.
+</string>
+    <string name="monuments_description_mermaidpowisle">Located near the Vistula river, the statue is made of gunmetal.
+</string>
+    <string name="monuments_description_saxongarden">The oldest public park in the city, founded in the late 17th century.
+</string>
+    <string name="monuments_description_lazienkibathspark">The largest park in Warsaw (76ha), originally designed in the 17th century as a baths park. In the 18th century Lazienki was transformed by Poland\'s King Stanislaw August into a setting for palaces, villas, classicist follies, and monuments.
+</string>
+    <string name="monuments_description_mokotowfield">One of the largest in Warsaw, until World War II, a major part was occupied by an airfield and the Warsaw Polytechnic aircraft works. In that time Warsaw Airport and the Warsaw Horse Racing Track was located there.
+</string>
+
+    <!-- Location description - Food and Drink category. [CHAR LIMIT=NONE] -->
+    <string name="fooddrink_description_efeskebab">Varsovians love kebabs. Right now there are many famous Turkish Maroccan, Libyan, Syrian, Egyptian etc. bars like Amrit, Sahara or Kebab King, but established in 1992 Efes is really worth trying.
+</string>
+    <string name="fooddrink_description_meatbusters">Although usually burgers are made with minced beef, here you can try quite different approach. Have you ever eaten beef cheeks, tongue or ribs in a burger? Give them a chance!
+</string>
+    <string name="fooddrink_description_warburger">Though located in a small shed, they have probably the best burgers in Warsaw. You should try venison version, simply delicious&#8230;
+</string>
+    <string name="fooddrink_description_milkbar">Tradition originating from communism time in Poland is eating meals in so called Milk Bars &#8211; you can try there various traditional Polish food for cheapest prices as possible (every 0,01zl counts!). The meals really taste like home made!
+</string>
+    <string name="fooddrink_description_ciaopizzeria">Cozy, traditional pizzeria, the best place to spend a romantic evening with you second half.
+</string>
+    <string name="fooddrink_description_wawphoasian">Warsaw is inhabitated by a lot Asian minority. It\'s hard to choose the best asian bar out of hundreds but this small spot is amongst leaders, especially when you are in vicinity of Warsaw University of Technology.
+</string>
+    <string name="fooddrink_description_piwpaw">Pub or rather tap bar known for its variety of craft and local beers. Do you taste the difference between IBU10 and IBU100? Just check.
+</string>
+    <string name="fooddrink_description_czupito">Ginourmous variety of shots (150+) and one simple price (5 PLN = 1,2 EUR). Gotta try\'em all!
+</string>
+    <string name="fooddrink_description_towarzyskacafe">Meet your friends for a coffee or a drink in a spot where nobody expects, but can have tasteful experience.
+</string>
+    <string name="fooddrink_description_nitrolody">Icecreams made almost from anything edible with a use of liquid nitrogen. Compose your own tastes and toppings.
+</string>
+
+    <!-- Location description - Sport and Leisure category. [CHAR LIMIT=NONE] -->
+    <string name="sport_description_nationalstadium">Arena of various sports &#8211; football, volleyball, motocross, windsurfing, athletics and many more. On daily basis invites you to its skirts &#8211; best spots for inline skating and longboarding.
+</string>
+    <string name="sport_description_vistula">The most famous meeting venues for young people during warm months are the stairs which spread on a lenght of few kilometers along west side of Vistula.
+</string>
+    <string name="sport_description_bikeroute">Dirt route prepared for cyclist let you see the Warsaw Nature Reserve of Vistula river almost in the middle of city center.
+</string>
+    <string name="sport_description_jutrzenka">Are you into BMXs, inline skates or skateboaring? This skatepark is for you!
+</string>
+    <string name="sport_description_legia">If you a fan of European football, you need to visit this Stadium and watch the match of best Warsaw (and probably also Polish) football team.
+</string>
+    <string name="sport_description_hybrydy">Music club famous amongst students.
+</string>
+    <string name="sport_description_goldenterraces">Commercial, office, and entertainment complex in the center of Warsaw with transparent, steel and glass, bubble&#8211;shaped roof.
+</string>
+    <string name="sport_description_chopinconcerts">At the foot of the Monument to Chopin in the Royal Lazienki you can listen to pianists of worldwide renown, who consider giving these performances an honour.
+</string>
+    <string name="sport_description_fountain">This tourist attraction located in Podzamcze district was opened in May 2011 and it is a visual show combining music, light and fountains. The ‘Water – Light – Sound’ multimedia shows take place each Friday and Saturday from May till September.
+</string>
+    <string name="sport_description_sciencecopernicus">Gain some new knowledge about the world of science, whether you are child or adult.
+</string>
+
+
+    <!-- =========== -->
+    <!-- Credits -->
+    <!-- =========== -->
+
+    <!-- App Credits and bibliography - general introduction [CHAR LIMIT=NONE] -->
+    <string name="credits_intro">MeetWarsaw App is a part of educational project made during
+        Udacity Android Basics course and it serves purely educational purposes.
+        Most of the photos used in the app are downloaded from Free Stock Photos sites:
+        pixabay.com or pexels.com and are under CC0 licence (free to use). \n\n
+        Nonetheless, some of the photos are under different licences and these are acknowledged
+        in the list below:
+    </string>
+
+    <!-- App Credits and bibliography - authors and credits [CHAR LIMIT=NONE] -->
+    <string name="credits_authors">Warsaw Coat of Arms: \n
+        By Original COA: Uknown, (svg copy) Poznaniak (Own work (copy of official COA)) [Public domain or CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons \n
+        https://commons.wikimedia.org/wiki/File%3APOL_Warszawa_COA.svg \n
+        \n
+        Warsaw Uprising Museum photo: \n
+        By Halibutt (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons \n
+        https://commons.wikimedia.org/wiki/File%3AWarsaw_Rising_Museum.JPG \n
+        \n
+        POLIN Museum of the History of Polish Jews photo: \n
+        By Wojciech Kryński (Museum of the History of Polish Jews) [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)], via Wikimedia Commons \n
+        https://commons.wikimedia.org/wiki/File%3AMuseum_of_the_History_of_Polish_Jews_in_Warsaw_building_0011.jpg \n
+        \n
+        Library of University of Warsaw photo: \n
+        © Marek and Ewa Wojciechowscy / Trips over Poland [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons \n
+        https://commons.wikimedia.org/wiki/File%3A6_Warszawa_411.jpg \n
+        \n
+        Mokotow Field photo: \n
+        By Adrian Grycuk (Own work) [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)], via Wikimedia Commons \n
+        https://commons.wikimedia.org/wiki/File%3AStaw_Pole_Mokotowskie_2017.jpg \n
+        \n
+        Legia Warsaw Stadium photo: \n
+        By Adrian Grycuk (Own work) [CC BY-SA 3.0 pl (https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en)], via Wikimedia Commons \n
+        https://commons.wikimedia.org/wiki/File%3AStadion_Wojska_Polskiego_jeszcze_jako_Pepsi_Arena_2011.JPG \n
+        \n
+        Science Center Copernicus photo:  \n
+        By Alina Zienowicz, e-mail (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY 3.0 (http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons \n
+        https://commons.wikimedia.org/wiki/File%3ACentrum_Nauki_Kopernik_-_Planetarium_-_Warszawa_(1).jpg \n
+    </string>
+</resources>

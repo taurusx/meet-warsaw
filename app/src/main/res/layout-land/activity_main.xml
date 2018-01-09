@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.meetwarsaw.MainActivity">
+
+    <!-- Mermaid COA Warsaw logo -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:minHeight="@dimen/height_listview_image"
+        android:paddingBottom="@dimen/padding_main_imageview"
+        android:paddingTop="@dimen/padding_main_imageview">
+
+        <ImageView
+            android:layout_width="@dimen/width_main_image_landscape"
+            android:layout_height="@dimen/height_main_image_landscape"
+            android:layout_gravity="center"
+            android:src="@drawable/main_warsawcoa" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <!-- Buildings category -->
+        <FrameLayout
+            style="@style/CategoryStyleLandscape"
+            android:background="@color/category_buildings">
+
+            <TextView
+                android:id="@+id/textview_main_buildings"
+                style="@style/CategoryTextStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/all_category_buildings" />
+        </FrameLayout>
+
+        <!-- Monuments category -->
+        <FrameLayout
+            style="@style/CategoryStyleLandscape"
+            android:background="@color/category_monuments">
+
+            <TextView
+                android:id="@+id/textview_main_monuments"
+                style="@style/CategoryTextStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/all_category_monuments" />
+        </FrameLayout>
+
+        <!-- Food and Drink category -->
+        <FrameLayout
+            style="@style/CategoryStyleLandscape"
+            android:background="@color/category_fooddrink">
+
+            <TextView
+                android:id="@+id/textview_main_fooddrink"
+                style="@style/CategoryTextStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/all_category_fooddrink" />
+        </FrameLayout>
+
+        <!-- Sport category -->
+        <FrameLayout
+            style="@style/CategoryStyleLandscape"
+            android:background="@color/category_sport">
+
+            <TextView
+                android:id="@+id/textview_main_sport"
+                style="@style/CategoryTextStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/all_category_sport" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
